@@ -20,8 +20,8 @@ console.log(frase.toUpperCase().replaseAll("A", "I"), frase.length)*/
 const nomeUsuario = prompt("digite seu nome")
 const emailUsuario = prompt("digite seu email")
 
-const frase = "o email" + emailUsuario + "foi cadastrado con sucesso" + "seja bem-vinda(o)" + nomeUsuario*/
-
+const frase = "o email" + emailUsuario + "foi cadastrado con sucesso" + "seja bem-vinda(o)" + nomeUsuario
+console.log(frase)*/
 
 /*
 const comidasPreferidas = ["pizza", "hamburguer", "macarrao", "pastel de queijo", "acai"]

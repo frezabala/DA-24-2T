@@ -80,26 +80,6 @@ console.log('a soma dos 5 numero e:' , soma)*/
   }*/
 //eu vi um video e eles explicarom assim 
 
-//ordenacao array
-/*
-function ordenarArray(array) {
-    for (let i = 0; i < array.length; i++) {
-      for (let j = i + 1; j < array.length; j++) {
-        if (array[i] > array[j]) {
-          let temp = array[i];
-          array[i] = array[j];
-          array[j] = temp;
-        }
-      }
-    }
-    return array;
-  }
-  let entrada = prompt("Digite uma lista de números separados por vírgulas:");
-  let numeros = entrada.split(",").map(Number);
-  let arrayOrdenado = ordenarArray(numeros);
-  console.log("Array ordenado:", arrayOrdenado);
-
-//eu vi um video que mostrou como isso se poderia ser feito sem usar (como sort())*/
 
 //caixa eletronico
 /*let valorSague = Number(prompt('digite o valor de saque'))
@@ -121,5 +101,24 @@ if (cpf.length === 11) {
     console.log('CPF inválido')  
 }*/
 
+//ordenacao array
+/*
+function ordenarArray(array) {
+    for (let i = 0; i < array.length; i++) {
+      for (let j = i + 1; j < array.length; j++) {
+        if (array[i] > array[j]) {
+          let temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+      }
+    }
+    return array;
+  }
+  let entrada = prompt("Digite uma lista de números separados por vírgulas:");
+  let numeros = entrada.split(",").map(Number);
+  let arrayOrdenado = ordenarArray(numeros);
+  console.log("Array ordenado:", arrayOrdenado);
 
+//eu vi um video que mostrou como isso se poderia ser feito sem usar (como sort())*/
 

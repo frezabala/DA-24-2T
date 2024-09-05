@@ -122,3 +122,5 @@ function ordenarArray(array) {
 
 //eu vi um video que mostrou como isso se poderia ser feito sem usar (como sort())*/
 
+
+

@@ -43,7 +43,7 @@ console.log(filme.nomeDoPersonages)
 filme.elenco[0]= 'xuxa'
 console.log(filme.elenco)*/
 
-
+/*
 const pessoa ={
     nome: 'genesis',
     idade: 16,
@@ -105,8 +105,8 @@ const nomaProf= ['lucas', 'leo' ,'mita']
 const novaLista = {...nomaProf}
 console.log(novaLista)
 console.log('o nome do prof e:',novaLista[1])
-*//*
-
+*/
+/*
 function criarObjetoPessoaComDetalhes(pessoa) {
     const { nome, idade } = pessoa;
     const comidasPreferidas = ["pizza", "hamburguer", "sushi"]; // Exemplo de comidas preferidas
@@ -130,8 +130,8 @@ function criarObjetoPessoaComDetalhes(pessoa) {
   
   
   criarObjetoPessoaComDetalhes(pessoa);*/
-/*
 
+/*
 
   const personagens = [{
    nome: 'Naruto Uzumaki',

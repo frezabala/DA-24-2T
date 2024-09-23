@@ -9,18 +9,18 @@ function criarPersonagem(nome, classe, nivel, hp, habilidades) {
         historicoAcoes: [],
 
         atacar: function() {
-            this.historicoAcoes.push('Atacou');
+            Susi.historicoAcoes.push('Atacou');
             console.log(nome + ' atacou!');
         },
 
         defender: function() {
-            this.historicoAcoes.push('Defendeu');
+            Susi.historicoAcoes.push('Defendeu');
             console.log(nome + ' defendeu!');
         },
 
         usarHabilidade: function(habilidade) {
             if (habilidades.indexOf(habilidade) !== -1) {
-                this.historicoAcoes.push('Usou habilidade: ' + habilidade);
+                Susi.historicoAcoes.push('Usou habilidade: ' + habilidade);
                 console.log(nome + ' usou a habilidade ' + habilidade + '!');
             } else {
                 console.log(nome + ' não tem a habilidade ' + habilidade + '.');

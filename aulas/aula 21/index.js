@@ -154,21 +154,22 @@ function exibirIlha(ilha) {
       const elemento = ilha[i][j];
       switch (elemento) {
         case 0:
-          linha += '🟩 '; // Grama
+          linha += '0 '; // Grama
           break;
         case 1:
-          linha += '🟦 '; // Água
+          linha += '1 '; // Água
           break;
         case 2:
-          linha += '🌲 '; // Floresta
+          linha += '2 '; // Floresta
           break;
         case 3:
+          linha+= '3';//Dinossauro (carnivoro)
         case 4:
-          linha += '🦖 '; // Dinossauro (carnívoro ou herbívoro)
+          linha += '4 '; // Dinossauro ( herbívoro)
           contagemDinos++;
           break;
         default:
-          linha += '❓ '; // Desconhecido
+          linha += 'deconhecido '; // Desconhecido
       }
     }
     console.log(linha);
@@ -183,6 +184,6 @@ exibirIlha(minhaIlha);
 
 let posicaoDino = [2, 3]; // Posição inicial do dinossauro (linha 2, coluna 3)
 
-posicaoDino = moverDinossauro(minhaIlha, posicaoDino[0], posicaoDino[1], 'direita');
+posicaoDino = moverDinossauro(minhaIlha, posicaoDino[1], posicaoDino[1], 'direita');
 console.log("\nIlha após o movimento:");
 exibirIlha(minhaIlha);

@@ -3,13 +3,14 @@ const Zelda = {
       { nome: "Tingle", vida: 8, ataque: 4, defesa: 6 },
       { nome: "Nabooru", vida: 14, ataque: 12, defesa: 9 },
       { nome: "Darunia", vida: 18, ataque: 14, defesa: 10 },
-      { nome: "Midna", vida: 10, ataque: 7, defesa: 8 }
+      { nome: "", vida: 10, ataque: 7, defesa: 8 }
   ],
   armas: [
       { tipo: "Cajado", dano: 9, alcance: 2 },
       { tipo: "Lança", dano: 12, alcance: 4 },
       { tipo: "Bumerangue Mágico", dano: 6, alcance: 3 },
-      { tipo: "Espada de Dois Gumes", dano: 11, alcance: 1 }
+      { tipo: "Espada de Dois Gumes", dano: 11, alcance: 1 },
+      { tipo : "nuves " , dano: 3536555552 , alcance: 20}
   ],
   itens: [
       { nome: "Escudo Hylian", efeito: "Aumenta a defesa" },
